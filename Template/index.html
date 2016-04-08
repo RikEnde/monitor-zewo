@@ -1,0 +1,21 @@
+<html>
+    <head>
+		<title>{{title}}</title>
+    </head>
+    <body>
+		<h2>Available services</h2>
+		<table>
+		{{#urls}}
+			<tr>
+				<td>
+					<a href="{{url}}">{{url}}</a>
+				</td>
+				<td>
+					{{desc}}
+				</td>
+			</tr>	
+		{{/urls}}
+		</table>
+		Your request: {{request}}
+    </body>
+</html>
