@@ -25,7 +25,8 @@ sudo apt-get install zewo
 DB Schema
 =========
 
-```create table cpuinfo ( 
+```
+create table cpuinfo ( 
 	id			serial primary key,
 	time		timestamp without time zone not null,
 	userland	numeric(4,1) not null, 
@@ -40,7 +41,8 @@ DB Schema
 	temperature numeric(4,1) not null
 );
 
-create index index_time on cpuinfo(time);```
+create index index_time on cpuinfo(time);
+```
 
 
 TODO
