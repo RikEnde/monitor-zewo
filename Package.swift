@@ -10,7 +10,7 @@ var dependencies: [Package.Dependency] = [
         .Package(url: "https://github.com/RikEnde/BasicAuthMiddleware.git", majorVersion: 0), 
         .Package(url: "https://github.com/Zewo/ContentNegotiationMiddleware.git", majorVersion: 0, minor: 3), 
         .Package(url: "https://github.com/Zewo/JSONMediaType.git", majorVersion: 0, minor: 3), 
-        .Package(url: "https://github.com/Zewo/InterchangeData.git", majorVersion: 0, minor: 2), 
+        .Package(url: "https://github.com/Zewo/InterchangeData.git", majorVersion: 0, minor: 3), 
     ] 
 
 #if os(Linux)
